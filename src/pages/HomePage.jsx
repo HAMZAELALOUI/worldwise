@@ -1,7 +1,10 @@
+import PageNav from "./PageNav"
+
 function HomePage() {
   return (
     <div>
-      <h1>HpmePage</h1>
+      <h1>HomePage</h1>
+      <PageNav/>
     </div>
   )
 }
