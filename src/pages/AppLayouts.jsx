@@ -1,7 +1,12 @@
+import Map from "../components/Map"
+import SideBar from "../components/SideBar"
+import styles from './AppLayouts.module.css'
+
 function AppLayouts() {
   return (
-    <div>
-      
+    <div className={styles.app}>
+      <SideBar/>
+      <Map/>
     </div>
   )
 }
