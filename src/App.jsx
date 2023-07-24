@@ -9,6 +9,7 @@ import AppLayouts from "./pages/AppLayouts"
 import Login from "./pages/Login"
 import CityList from "./components/CityList"
 import CountryList from "./components/CountryList"
+import City from "./components/City"
 
 const BASE_CITIES='http://localhost:3000/cities'
 
@@ -46,7 +47,8 @@ useEffect(function(){
     <Route path="pricing" element={<Pricing/>}/>
     <Route path="app" element={<AppLayouts/>}>    
         <Route index  element={<p>Cities List</p>} />
-        <Route path="cities"  element={<CityList cities={cities} isLoading={isLoading}/>} />
+        <Route path="cities"  element={<CityList cities={cities} isLoading={isLoading}/>} />      
+        <Route path="cities/:id"  element={<City/>} />      
         <Route path="countries"  element={<CountryList cities={cities} isLoading={isLoading}/>} />
         <Route path="form"  element={<p>Form</p>} />
     </Route>
