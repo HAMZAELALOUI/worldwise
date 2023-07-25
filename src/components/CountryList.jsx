@@ -1,11 +1,14 @@
+import { useCities } from '../contexts/CitiesContext'
 import CountryItem from './CountryItem'
 import styles from './CountryList.module.css'
 import Message from './Message'
 import Spinner from './Spinner'
 
 
-function CountryList({cities,isLaoding}) {
-  if(isLaoding) return <Spinner/>
+function CountryList() {
+  const {cities,isLoading} =useCities()
+
+  if(isLoading) return <Spinner/>
   if(!cities.length) return (<Message message='Add A city by clicking ob the map '/>);
 
   const countries=cities.reduce((arr,city)=>{

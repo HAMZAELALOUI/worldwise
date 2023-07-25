@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 
 import Products from "./pages/Product"
@@ -11,7 +10,7 @@ import CityList from "./components/CityList"
 import CountryList from "./components/CountryList"
 import City from "./components/City"
 import Form from "./components/Form"
-import {CitiesContext,CitiesProvider} from "./contexts/CitiesContext"
+import {CitiesProvider} from "./contexts/CitiesContext"
 
 function App() {
   return (
