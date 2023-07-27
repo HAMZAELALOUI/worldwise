@@ -1,6 +1,6 @@
 {
   "cities": [
-     {
+    {
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
@@ -35,7 +35,150 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Valle de Altomira, El",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-27T18:41:49.466Z",
+      "notes": "",
+      "position": {
+        "lat": "40.24396175963753",
+        "lng": "-2.808203513571126"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Valle de Altomira, El",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-27T18:41:49.466Z",
+      "notes": "",
+      "position": {
+        "lat": "40.24396175963753",
+        "lng": "-2.808203513571126"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Kunhegyes",
+      "country": "Hungary",
+      "emoji": "🇭🇺",
+      "date": "2023-07-27T19:02:33.505Z",
+      "notes": "cccc",
+      "position": {
+        "lat": "47.3315151620852",
+        "lng": "20.67860199880986"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Samognat",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-07-27T19:08:48.994Z",
+      "notes": "hfhf",
+      "position": {
+        "lat": "46.25269050028606",
+        "lng": "5.591090230655805"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Lamrabih",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2023-07-27T19:17:16.665Z",
+      "notes": "morocco goood",
+      "position": {
+        "lat": "34.48405404903018",
+        "lng": "-5.350168501092436"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Si Abdelghani",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2023-07-27T19:17:43.954Z",
+      "notes": "",
+      "position": {
+        "lat": "35.171897960009815",
+        "lng": "1.6339731480700341"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Debdou",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2023-07-27T19:17:43.954Z",
+      "notes": "dd",
+      "position": {
+        "lat": "33.68508354296441",
+        "lng": "-3.050698956186946"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Si Abdelghani",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2023-07-27T19:17:43.954Z",
+      "notes": "dd",
+      "position": {
+        "lat": "35.171897960009815",
+        "lng": "1.6339731480700341"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Ait Baha",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2023-07-27T19:22:42.632Z",
+      "notes": "baha",
+      "position": {
+        "lat": "30.130966093678136",
+        "lng": "-9.12872223381768"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Wartau",
+      "country": "Switzerland",
+      "emoji": "🇨🇭",
+      "date": "2023-07-27T19:28:54.172Z",
+      "notes": "lll",
+      "position": {
+        "lat": "47.10779685863596",
+        "lng": "9.474667452505502"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Mouhet",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-07-27T19:29:09.702Z",
+      "notes": "",
+      "position": {
+        "lat": "46.40547468418925",
+        "lng": "1.4742537630337706"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Manoilesti",
+      "country": "Moldova (the Republic of)",
+      "emoji": "🇲🇩",
+      "date": "2023-07-27T19:30:56.990Z",
+      "notes": "chi blassa ",
+      "position": {
+        "lat": "47.20994557893619",
+        "lng": "27.881937833338515"
+      },
+      "id": 98443209
     }
-
   ]
 }
