@@ -18,7 +18,7 @@ useEffect(function(){
      const data = await res.json()
      setCities(data)
      }catch{
-      alert('ther is an error frtching data...')
+      alert('ther is an error fetching cities...')
     }finally{
       setIsLoading(false)
     }
@@ -34,7 +34,7 @@ async function getCity(id){
      const data = await res.json()
      setCurrentCity(data)
      }catch{
-      alert('ther is an error frtching data...')
+      alert('ther is an error loading city...')
     }finally{
       setIsLoading(false)
     }
@@ -54,7 +54,21 @@ async function createCity(newCity){
      setCities((cities)=>[...cities,data])
    
      }catch{
-      alert('ther is an error frtching data...')
+      alert('ther is an error creating city...')
+    }finally{
+      setIsLoading(false)
+    }
+}
+async function deleteCity(id){
+  try{
+    setIsLoading(true)
+     await fetch(`${BASE_CITIES}/cities/${id}`,{
+      method : "DELETE",     
+     })
+     setCities((cities)=>cities.filter(city=>city.id !== id))
+   
+     }catch{
+      alert('ther is an error creating city...')
     }finally{
       setIsLoading(false)
     }
@@ -67,6 +81,7 @@ return (
     currentCity,
     getCity,
     createCity,
+    deleteCity
   }}>
    {children}
   </CitiesContext.Provider>
