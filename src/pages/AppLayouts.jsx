@@ -1,5 +1,6 @@
 import Map from "../components/Map"
 import SideBar from "../components/SideBar"
+import User from "../components/User"
 import styles from './AppLayouts.module.css'
 
 function AppLayouts() {
@@ -7,6 +8,7 @@ function AppLayouts() {
     <div className={styles.app}>
       <SideBar/>
       <Map/>
+      <User/>
     </div>
   )
 }
