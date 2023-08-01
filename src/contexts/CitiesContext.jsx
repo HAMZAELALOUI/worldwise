@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useReducer } from "react";
 
 const CitiesContext = createContext()
 const BASE_CITIES='http://localhost:3000'
@@ -56,7 +56,7 @@ useEffect(function(){
 },[])
 
 
-async function getCity(id){
+const getCity = useCallback( async function getCity(id){
   if(Number(id) === currentCity.id) return;
   dispatch({type :'loading'})
   try{
@@ -69,7 +69,7 @@ async function getCity(id){
         payload: 'error fetching data '
        })
     }
-}
+},[currentCity.id])
 
 async function createCity(newCity){
   dispatch({type :'loading'})
